@@ -30,5 +30,5 @@ sudo apt -y install libatlas-base-dev gfortran
 sudo apt -y install libhdf5-dev libhdf5-serial-dev libhdf5-103
 sudo apt -y install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
 
-#7 Qt5: improving a graphical user interfaces (optional)
-sudo apt -y install qt5-default
+#7 python3
+sudo apt -y install python3-dev
