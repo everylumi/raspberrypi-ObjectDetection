@@ -81,7 +81,7 @@ python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model --edgetpu
 python3 TFLite_detection_video.py --modeldir=Sample_TFLite_model --edgetpu
 python3 TFLite_detection_image.py --modeldir=Sample_TFLite_model --edgetpu
 ```
-![image](https://github.com/everylumi/raspberrypi-mnist/blob/main/doc/2021-11-21.png)
+![image](https://github.com/everylumi/raspberrypi-ObjectDetection/blob/main/doc/TFLite-vs-EdgeTPU.gif)
 
 
 ## License  
