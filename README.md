@@ -40,6 +40,9 @@ pip3 install opencv-contrib-python==4.1.0.25
 : 25minutes to install on RaspberryPi3  
 ```sh
 bash install_tensorflow-2.4.0.sh
+
+# for 64bit OS
+install_tensorflow-2.4.0_aarch64.sh
 ```
 FYI, tensorflow releases  
 https://github.com/lhelontra/tensorflow-on-arm/releases
