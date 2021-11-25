@@ -9,7 +9,7 @@ https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-a
 
 - Raspberry Pi 3 or 4
 - Raspberry Pi OS buster (recommended)
-- Python 3.7
+- Python 3.7(32bit), Python 3.9(64bit), 
 - OpenCV 4
 - TensorFlow 2.1.0 or above
 
@@ -37,10 +37,13 @@ pip3 install opencv-python==4.5.3.56
 ```
 
 #### Step 4 install tensorflow (skip, if installed already)
-: 15minutes to install on RaspberryPi3  
+: 25minutes to install on RaspberryPi3  
 ```sh
 bash install_tensorflow-2.4.0.sh
-```
+
+# for OS bullseye - 64bit only
+bash install_tensorflow-2.6.0.sh
+``` 
 FYI, tensorflow releases  
 https://github.com/lhelontra/tensorflow-on-arm/releases
 
@@ -81,6 +84,9 @@ python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model --edgetpu
 python3 TFLite_detection_video.py --modeldir=Sample_TFLite_model --edgetpu
 python3 TFLite_detection_image.py --modeldir=Sample_TFLite_model --edgetpu
 ```
+
+
+## Screenshot
 ![image](https://github.com/everylumi/raspberrypi-ObjectDetection/blob/main/doc/TFLite-vs-EdgeTPU.gif)
 
 

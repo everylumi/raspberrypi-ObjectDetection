@@ -7,7 +7,7 @@ sudo apt -y install libatlas-base-dev libopenblas-dev libblas-dev
 sudo apt -y install liblapack-dev cython
 sudo -H pip3 install pybind11
 sudo -H pip3 install h5py==2.10.0
-sudo pip3 install --upgrade numpy
+pip3 install --upgrade numpy
 
 
 # Installation TensorFlow
