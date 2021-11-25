@@ -13,12 +13,17 @@ sudo pip3 install --upgrade numpy
 # Installation TensorFlow
 
 #version=$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')
-#if [ $version == "3.7" ]; then
-#wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl
-#pip3 install tensorflow-2.0.0-cp37-none-linux_armv7l.whl
-#rm tensorflow-2.0.0-cp37-none-linux_armv7l.whl
-#fi
 
+version=$(getconf LONG_BIT)
+
+if [ $version == "32" ]; then
 wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl
 pip3 install tensorflow-2.4.0-cp37-none-linux_armv7l.whl
 rm tensorflow-2.4.0-cp37-none-linux_armv7l.whl
+fi
+
+if [ $version == "64" ]; then
+wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_aarch64.whl
+pip3 install tensorflow-2.4.0-cp37-none-linux_aarch64.whl
+rm tensorflow-2.4.0-cp37-none-linux_aarch64.whl
+fi

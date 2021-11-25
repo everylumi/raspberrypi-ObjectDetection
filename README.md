@@ -8,8 +8,8 @@ https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-a
 ## requirements 
 
 - Raspberry Pi 3 or 4
-- 2021-05-07-raspios-buster
-- Python 3.7 or above
+- Raspberry Pi OS buster (recommended)
+- Python 3.7
 - OpenCV 4
 - TensorFlow 2.1.0 or above
 
@@ -30,19 +30,16 @@ sudo apt upgrade
 ```
 
 #### Step 3 install OpenCV (skip, if installed already)
-: 30minutes to install on RaspberryPi3
+: 50minutes to install on RaspberryPi3
 ```sh
 bash get_pi_requirements_opencv.sh
-pip3 install opencv-contrib-python==4.1.0.25
+pip3 install opencv-python==4.5.3.56 
 ```
 
 #### Step 4 install tensorflow (skip, if installed already)
-: 25minutes to install on RaspberryPi3  
+: 30minutes to install on RaspberryPi3  
 ```sh
 bash install_tensorflow-2.4.0.sh
-
-# for 64bit OS
-install_tensorflow-2.4.0_aarch64.sh
 ```
 FYI, tensorflow releases  
 https://github.com/lhelontra/tensorflow-on-arm/releases
