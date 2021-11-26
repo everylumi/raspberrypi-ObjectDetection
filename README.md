@@ -37,7 +37,7 @@ pip3 install opencv-python==4.5.3.56
 ```
 
 #### Step 4 install tensorflow (skip, if installed already)
-: 25minutes to install on RaspberryPi3  
+: 20minutes to install on RaspberryPi3  
 ```sh
 bash install_tensorflow-2.4.0.sh
 
@@ -47,7 +47,7 @@ bash install_tensorflow-2.6.0.sh
 
 FYI, tensorflow releases  
 https://github.com/lhelontra/tensorflow-on-arm/releases  
-https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit
+https://github.com/KumaTea/tensorflow-aarch64/releases    
 
 
 #### Step 5 check version
