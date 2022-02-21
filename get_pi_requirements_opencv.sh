@@ -32,3 +32,7 @@ sudo apt -y install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
 
 #7 python3
 sudo apt -y install python3-dev
+
+#8 numpy
+sudo pip install -U numpy
+sudo pip3 install -U numpy
