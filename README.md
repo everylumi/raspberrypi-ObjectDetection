@@ -16,8 +16,13 @@ https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-a
 
 ## Pre Configuation after Raspi OS  
 :GPU Memory Up to 128  
-sudo raspi-config -> Performance Options -> GPU Memory -> input 128
+sudo raspi-config -> Performance Options -> GPU Memory -> input 128  
 
+#### In case of raspberry pi 4
+- EEPROM Check  
+   sudo rpi-eeprom-update  -> check, BOOTLOADER: up to date  
+- EEPROM Update  
+   sudo rpi-eeprom-update -a && reboot  
 
 ## Installation
 
