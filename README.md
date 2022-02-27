@@ -14,6 +14,11 @@ https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-a
 - TensorFlow 2.1.0 or above
 
 
+## Pre Configuation after Raspi OS  
+:GPU Memory Up to 128  
+sudo raspi-config -> Performance Options -> GPU Memory -> input 128
+
+
 ## Installation
 
 #### Step 1 clone repository
@@ -30,14 +35,12 @@ sudo apt upgrade
 ```
 
 #### Step 3 install OpenCV (skip, if installed already)
-: 25minutes to install on RaspberryPi3
 ```sh
 bash get_pi_requirements_opencv.sh
 pip3 install opencv-python==4.5.3.56 
 ```
 
 #### Step 4 install tensorflow (skip, if installed already)
-: 20minutes to install on RaspberryPi3  
 ```sh
 bash install_tensorflow-2.4.0.sh
 
