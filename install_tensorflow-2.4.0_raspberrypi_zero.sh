@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# install pip and pip3
+sudo apt -y install python-pip python3-pip
+
+# remove old versions, if not placed in a virtual environment (let pip search for them)
+pip uninstall tensorflow
+pip3 uninstall tensorflow
+
 # Get packages required for TensorFlow
 sudo apt -y install gfortran
 sudo apt -y install libhdf5-dev libc-ares-dev libeigen3-dev
