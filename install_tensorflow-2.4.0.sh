@@ -20,8 +20,8 @@ pip3 install pybind11
 #pip3 install Cython
 
 # install h5py with Cython version 0.29.23 (± 15 min @1500 MHz)
-pip3 install h5py==3.1.0
-#pip3 install h5py
+#pip3 install h5py==3.1.0
+pip3 install h5py
 #pip3 install -U numpy
 pip3 install numpy==1.19.5
 
