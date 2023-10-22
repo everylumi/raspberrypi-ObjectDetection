@@ -23,7 +23,7 @@ pip3 install pybind11
 #pip3 install h5py==3.1.0
 pip3 install h5py
 #pip3 install -U numpy
-pip3 install numpy==1.19.5
+pip3 install numpy==1.23.4
 
 # Installation TensorFlow
 #version=$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')

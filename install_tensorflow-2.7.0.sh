@@ -15,12 +15,12 @@ sudo apt -y install python-pip python3-pip
 sudo pip uninstall tensorflow
 sudo pip3 uninstall tensorflow
 
-# utmost important: use only numpy version 1.19.5
+# utmost important: use only numpy version 1.23.4
 # check the version first
 pip3 list | grep numpy
 
 # if not version 1.19.5, update!
-sudo -H pip3 install numpy==1.19.5
+sudo -H pip3 install numpy==1.23.4
 
 # install the dependencies (if not already onboard)
 sudo apt -y install gfortran

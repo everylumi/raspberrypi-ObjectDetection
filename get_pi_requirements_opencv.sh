@@ -63,4 +63,4 @@ pip3 install "picamera[array]"
 
 #11 numpy
 #pip3 install -U numpy
-pip3 install numpy==1.19.5
+pip3 install numpy==1.23.4
